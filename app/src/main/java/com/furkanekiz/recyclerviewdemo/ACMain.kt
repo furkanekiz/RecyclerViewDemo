@@ -37,7 +37,7 @@ class ACMain : AppCompatActivity() {
     }
 
     private fun listItemClicked(fruit: Fruit) {
-        Toast.makeText(this, "Supplier is : ${fruit.name}", Toast.LENGTH_SHORT)
+        Toast.makeText(this, "Supplier is : ${fruit.supplier}", Toast.LENGTH_SHORT)
             .show()
     }
 }
